@@ -1,5 +1,5 @@
 
-addItem = () => {
+document.querySelector(".add-item-btn").addEventListener("click", () => {
 
     let input = document.querySelector(".input").value;
 
@@ -50,5 +50,6 @@ addItem = () => {
 
 
 }
+);
 
 
